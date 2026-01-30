@@ -55,5 +55,8 @@ The chatbot handels:
 **Invalid Tracking Number (Error Handling)**  
 ![Invalid Input](screenshots/invalid_input.png)
 
-**Successful Package Lookup**  
-![Success](screenshots/success.png)
+**Successful Tracking Number Lookup**  
+![Tracking Number](screenshots/tracking_number.png)
+
+**Successful Email Lookup**  
+![Email](screenshots/email_lookup.png)
