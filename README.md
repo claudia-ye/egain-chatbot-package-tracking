@@ -14,13 +14,12 @@ The chatbot supports:
 
 ## Approach & Design
 The chatbot is implemented using a **decision-tree conversation model**  
-This approach prioritizes clarity, predictability, and reliability—key requirements for production customer service systems.
 
 Key design choices:
 - Modular functions for each conversation step
 - Explicit input validation and retry paths
 - Clear separation between happy paths and error handling
-- Human agent escalation available at all times
+- Human agent escalation available
 
 A visual flowchart of the conversation design is included in the `flowcharts/` directory.
 
@@ -37,10 +36,24 @@ A visual flowchart of the conversation design is included in the `flowcharts/` d
    ```bash
    git clone https://github.com/your-username/egain-chatbot-package-tracking.git
    cd egain-chatbot-package-tracking
-Open the Jupyter notebook:
+2.Open the Jupyter notebook:
 
 jupyter notebook chatbot_package_tracking.ipynb
-Run all cells in order.
+3.Run all cells in order.
 
-Execute the final cell to start the chatbot and interact via the command line.
+4.Execute the final cell to start the chatbot and interact via the command line.
 
+### Error Handeling
+The chatbot handels:
+- Invalid tracking numbers
+- Invalid email addresses
+- Unexpected menu selections
+- Incorrect yes/no inputs
+
+## Example Interactions
+
+**Invalid Tracking Number (Error Handling)**  
+![Invalid Input](screenshots/invalid_input.png)
+
+**Successful Package Lookup**  
+![Success](screenshots/success.png)
