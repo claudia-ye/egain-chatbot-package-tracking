@@ -45,7 +45,7 @@ jupyter notebook chatbot_package_tracking.ipynb
 4.Execute the final cell to start the chatbot and interact via the command line.
 
 ## Error Handling
-The chatbot handels:
+The chatbot handles:
 - Invalid tracking numbers
 - Invalid email addresses
 - Unexpected menu selections
