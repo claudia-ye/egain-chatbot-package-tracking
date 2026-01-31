@@ -36,13 +36,13 @@ A visual flowchart of the conversation design is included in the `flowcharts/` d
    ```bash
    git clone https://github.com/your-username/egain-chatbot-package-tracking.git
    cd egain-chatbot-package-tracking
-2.Open the Jupyter notebook:
+2. Open the Jupyter notebook:
 
 jupyter notebook chatbot_package_tracking.ipynb
 
-3.Run all cells in order.
+3. Run all cells in order.
 
-4.Execute the final cell to start the chatbot and interact via the command line.
+4. Execute the final cell to start the chatbot and interact via the command line.
 
 ## Error Handling
 The chatbot handles:
